@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 940px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    display: flex;
+}
+
+.btn {
+    align-self: center;
+    margin-left: 18px;
+}
+span {
+    font-size: 38px;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    
+}
+
+.tabUsersFound,
+.tabStatistic{
+    border: solid 1px #eee;
+    border-radius: 8px;
+    padding: 18px 12px;
+    min-height: 250px;
+}
+
+.tabStatistic {
+    max-height: 250px;
+}
+
+.user {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+img {
+    border-radius: 50%;
+    width: 38px;
+    margin-right: 8px;
+}
+
+p {
+    align-self: center;
+}
+
+ul {
+    text-align: initial;
+}
